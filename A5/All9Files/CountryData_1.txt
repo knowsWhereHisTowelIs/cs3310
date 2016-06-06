@@ -1,0 +1,70 @@
+01 ARE you there     23
+02 BUG in My program 24
+03 ANN Oakley        25
+04 ANT hill or not   26
+05 BOT as in Robot   27
+06 SAT awhile here   28
+07 ART Hop & music   29
+08 THE Dog & Cat     30
+09 AND so on and...  31
+10 IMP ish like      32
+11 FIT for a queen   33
+12 HOT dog & fries   34
+13 OWN a Kindle ?    35
+14 JAM and bread     36
+15 GET a life!       37
+16 FAN of yours      38
+17 JET stream trail  39
+18 CON artist (???)  40
+19 APT #246          41
+20 CAM corder        42
+21 CAT and  mouse    43
+22 EEK , a mouse     44
+23 DAT a science     45
+24 GIG a bytes       46
+25 HIP hop           47
+26 DVD or CD or...   48
+27 RAM 2 GB or 4  GB 49
+28 ROM memory        50
+29 USA N.America     51
+30 YOU r 4 me        52
+31 WAN t a coffee    53
+32 ZEN life space    54
+33 WWW web forever   55
+34 TWO 2 TO TOO      56
+35 RAT you dirty     57
+36 SAM son & Delila  58
+37 INK blot test     59
+38 SYS tem Program   60
+39 TAN gerine Dream  61
+40 ALL for one       62
+41 BAT & ball        63
+42 BAM ! % $ #       64
+43 BEG for supper    65
+44 BUN hotdog        66
+45 AMY Winehouse     67
+46 DOG & cat & mouse 68
+47 CPU processor     69
+48 FAT BTree is best 70
+49 NOT really true   71
+50 RED wine Merlot   72
+51 SUN down @ sunset 73
+52 VAT of red wine   74
+53 VEG itables       75
+54 WOW wie  !!!      76
+55 WEB world wide    77
+56 YUP yeah, yes     78
+57 HOP hip           79
+58 GOT cha           80
+59 HAT & coat        81
+60 ITS an iPad Pro   82
+61 YES sir-eee       83
+62 ZIP code          84
+63 ZAK Smithkowski   85
+64 USE your brain    86
+65 TON of work to do 87
+66 ONE for all       88
+67 ICE cream cone    89
+68 HAM and eggs      90
+69 EGG plant soup    91
+70 DIP and chips     92

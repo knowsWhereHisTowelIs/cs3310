@@ -1,0 +1,158 @@
+open Log File
+open Input Stream File
+open TaskList File
+BUILD,continent,South America
+	>>>> 14 countries STORED in PQ
+SNAPSHOT
+	N is 14
+	[00] Brazil                         > 170,115,000
+	[01] Argentina                      >  37,032,000
+	[02] Colombia                       >  42,321,000
+	[03] Bolivia                        >   8,329,000
+	[04] Chile                          >  15,211,000
+	[05] Venezuela                      >  24,170,000
+	[06] Peru                           >  25,662,000
+	[07] Falkland Islands               >       2,000
+	[08] Suriname                       >     417,000
+	[09] French Guiana                  >     181,000
+	[10] Paraguay                       >   5,496,000
+	[11] Guyana                         >     861,000
+	[12] Ecuador                        >  12,646,000
+	[13] Uruguay                        >   3,337,000
+EMPTY
+	>>>> 14 countries REMOVED from PQ (in this order)
+	02 > Brazil                         > 170,115,000
+	03 > Colombia                       >  42,321,000
+	04 > Argentina                      >  37,032,000
+	05 > Peru                           >  25,662,000
+	06 > Venezuela                      >  24,170,000
+	07 > Chile                          >  15,211,000
+	08 > Ecuador                        >  12,646,000
+	09 > Bolivia                        >   8,329,000
+	10 > Paraguay                       >   5,496,000
+	11 > Uruguay                        >   3,337,000
+	12 > Guyana                         >     861,000
+	13 > Suriname                       >     417,000
+	14 > French Guiana                  >     181,000
+	15 > Falkland Islands               >       2,000
+SNAPSHOT
+	N is 0
+BUILD,continent,North America
+	>>>> 12 countries STORED in PQ
+SNAPSHOT
+	N is 12
+	[00] United States                  > 278,357,000
+	[01] Canada                         >  31,147,000
+	[02] Mexico                         >  98,881,000
+	[03] Nicaragua                      >   5,074,000
+	[04] Guatemala                      >  11,385,000
+	[05] El Salvador                    >   6,276,000
+	[06] Honduras                       >   6,485,000
+	[07] Bermuda                        >      65,000
+	[08] Panama                         >   2,856,000
+	[09] Belize                         >     241,000
+	[10] Costa Rica                     >   4,023,000
+	[11] St. Pierre & Miquelon          >       7,000
+ADD,region,Western Europe
+	>>>> 8 countries STORED in PQ
+ADD,region,Nordic Countries
+	>>>> 6 countries STORED in PQ
+REMOVE,20
+	>>>> 20 countries REMOVED from PQ (in this order)
+	00 > United States                  > 278,357,000
+	01 > Mexico                         >  98,881,000
+	02 > Germany                        >  82,164,700
+	03 > France                         >  59,225,700
+	04 > Canada                         >  31,147,000
+	05 > Netherlands                    >  15,864,000
+	06 > Guatemala                      >  11,385,000
+	07 > Belgium                        >  10,239,000
+	08 > Austria                        >   8,091,800
+	09 > Switzerland                    >   7,160,400
+	10 > Honduras                       >   6,485,000
+	11 > El Salvador                    >   6,276,000
+	12 > Denmark                        >   5,330,000
+	13 > Finland                        >   5,171,300
+	14 > Nicaragua                      >   5,074,000
+	15 > Norway                         >   4,478,500
+	16 > Costa Rica                     >   4,023,000
+	17 > Panama                         >   2,856,000
+	18 > Luxembourg                     >     435,700
+	19 > Iceland                        >     279,000
+SNAPSHOT
+	N is 6
+	[00] Belize                         >     241,000
+	[01] Faroe Islands                  >      43,000
+	[02] Bermuda                        >      65,000
+	[03] St. Pierre & Miquelon          >       7,000
+	[04] Svalbard & Jan Mayen           >       3,200
+	[05] Monaco                         >      34,000
+ADD,region,British Islands
+	>>>> 1 countries STORED in PQ
+REMOVE,2
+	>>>> 2 countries REMOVED from PQ (in this order)
+	00 > United Kingdom                 >  59,623,400
+	01 > Belize                         >     241,000
+REMOVE,2
+	>>>> 2 countries REMOVED from PQ (in this order)
+	00 > Bermuda                        >      65,000
+	01 > Faroe Islands                  >      43,000
+ADD,region,Southern Europe
+	>>>> 13 countries STORED in PQ
+ADD,region,Baltic Countries
+	>>>> 2 countries STORED in PQ
+REMOVE,10
+	>>>> 10 countries REMOVED from PQ (in this order)
+	00 > Italy                          >  57,680,000
+	01 > Spain                          >  39,441,700
+	02 > Yugoslavia                     >  10,640,000
+	03 > Greece                         >  10,545,700
+	04 > Portugal                       >   9,997,600
+	05 > Croatia                        >   4,473,000
+	06 > Bosnia & Herzegovina           >   3,972,000
+	07 > Lithuania                      >   3,698,500
+	08 > Latvia                         >   2,424,200
+	09 > Macedonia                      >   2,024,000
+ADD,region,Eastern Europe
+	>>>> 9 countries STORED in PQ
+SNAPSHOT
+	N is 17
+	[00] Russian Federation             > 146,934,000
+	[01] Ukraine                        >  50,456,000
+	[02] Poland                         >  38,653,600
+	[03] Romania                        >  22,455,500
+	[04] Slovakia                       >   5,398,700
+	[05] Hungary                        >  10,043,200
+	[06] Czech Republic                 >  10,278,100
+	[07] Bulgaria                       >   8,190,900
+	[08] Andorra                        >      78,000
+	[09] Vatican City                   >       1,000
+	[10] Slovenia                       >   1,987,800
+	[11] Svalbard & Jan Mayen           >       3,200
+	[12] San Marino                     >      27,000
+	[13] St. Pierre & Miquelon          >       7,000
+	[14] Belarus                        >  10,236,000
+	[15] Monaco                         >      34,000
+	[16] Malta                          >     380,200
+EMPTY
+	>>>> 17 countries REMOVED from PQ (in this order)
+	02 > Russian Federation             > 146,934,000
+	03 > Ukraine                        >  50,456,000
+	04 > Poland                         >  38,653,600
+	05 > Romania                        >  22,455,500
+	06 > Czech Republic                 >  10,278,100
+	07 > Belarus                        >  10,236,000
+	08 > Hungary                        >  10,043,200
+	09 > Bulgaria                       >   8,190,900
+	10 > Slovakia                       >   5,398,700
+	11 > Slovenia                       >   1,987,800
+	12 > Malta                          >     380,200
+	13 > Andorra                        >      78,000
+	14 > Monaco                         >      34,000
+	15 > San Marino                     >      27,000
+	16 > Svalbard & Jan Mayen           >       3,200
+	17 > St. Pierre & Miquelon          >       7,000
+	18 > Vatican City                   >       1,000
+close Input Stream File
+close TaskList File
+close Log File

@@ -1,0 +1,46 @@
+Asgn 6 demo specs
+
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+DO THESE IN THIS ORDER
+   - delete Log file
+   - run UserApp program
+   - print Log file
+   - print your code files
+
+PACKET TO HAND IN - IN THIS ORDER
+   - cover page
+   - Log file printout (smaller font [NOT TOO SMALL, WHICH WOULD IRRITATE GRADER]
+			& landscape orientation & smaller margins
+         		to save paper)
+   - UserApp program file
+   - MapData class file
+   - ShortestRoute class file
+   - any other code files
+
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+Make sure you:
+
+- follow the EXACT format specs for the log file in my specs
+- follow MY way of storing the Graph data (using "infinity"'s,
+    zeros, good edgeWeights)
+- use the version of Dijkstra's Algorithm that I discussed in class
+- include the IMPORTANT MODIFICATION that I described in the specs
+    regarding CHOOSING TARGETS only in the correct peninsula!!!!
+- use the method names from the specs
+- have the right answers:
+	- check if they seem reasonable,
+	- make sure there aren't duplicates in path or trace,
+	- make sure trace's order of cities "follows what you
+		know D's Algor should do"
+	- compare your results with someone else's
+- program prints TraceOfTargets
+	- in the ORDER THAT THEY ARE SELECTED
+		(NOT AFTER the search is over and you just dump
+		 	the included nodes - that would give WRONG RESULTS)
+	- includes START city (even though it's technically
+		not selected as a target inside the loop
+- the answer path prints:
+    - from start to destination (not destination to start)
+    - using city NAMES not city NUMBERS

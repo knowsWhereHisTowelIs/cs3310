@@ -1,0 +1,133 @@
+open Log File
+open TransData File
+open CountryData File
+--------------------USER APP----------------------
+LI
+ID CODE NAME              CONTINENT      SIZE    YEAR  POPULATION L.EX
+001 XVI Hex Land          North America 1        1969  1966514816 0.00
+003 CHN China             Asia          9572900  -1523 1277558000 71.4
+004 IND India             Asia          3287263  1947  1013662000 62.5
+006 USA United States     North America 9363520  1776  278357000  77.1
+007 ZMB Zambia            Africa        752618   1964  9169000    37.2
+008 RUS Russian Federatio Europe        17075400 1991  146934000  67.2
+009 JPN Japan             Asia          377829   -660  126714000  80.7
+012 AUS Australia         Oceania       7741220  1901  18886000   79.8
+017 USA United States     North America 9363520  1776  278357000  77.1
+019 FRA France            Europe        551500   843   59225700   78.8
+020 POL Poland            Europe        323250   1918  38653600   73.2
+021 KEN Kenya             Africa        580367   1963  30080000   48.0
+022 VEN Venezuela         South America 912050   1811  24170000   73.1
+024 YEM Yemen             Asia          527968   1918  18112000   59.8
+025 ZWE Zimbabwe          Africa        390757   1980  11669000   37.8
+027 BEL Belgium           Europe        30518    1830  10239000   77.8
+028 SOM Somalia           Africa        637657   1960  10097000   46.2
+030 HTI Haiti             North America 27750    1804  8222000    49.2
+031 NIC Nicaragua         North America 130000   1838  5074000    68.7
+032 LBN Lebanon           Asia          10400    1941  3282000    71.3
+033 OMN Oman              Asia          309500   1951  2542000    71.8
+035 QAT Qatar             Asia          11000    1971  599000     72.4
+036 WSM Samoa             Oceania       2831     1962  180000     69.2
+037 TCA Turks and Caicos  North America 430      0     17000      73.3
+041 ITA Italy             Europe        301316   1861  57680000   79.0
++ + + + + + + + + + + END OF DATA – 25 countries + + + + + + + + + + + +
+QI,012
+012 AUS Australia         Oceania       7741220  1901  18886000   79.8
+QI,0
+** ERROR: no country with id 0
+QI,999
+** ERROR: no country with id 999
+QI,022
+022 VEN Venezuela         South America 912050   1811  24170000   73.1
+QI,23
+** ERROR: no country with id 23
+QI,001
+001 XVI Hex Land          North America 1        1969  1966514816 0.00
+QI,2
+** ERROR: no country with id 2
+QI,039
+** ERROR: no country with id 39
+QI,004
+004 IND India             Asia          3287263  1947  1013662000 62.5
+QI,11
+** ERROR: no country with id 11
+QI,41
+041 ITA Italy             Europe        301316   1861  57680000   79.0
+QI,007
+007 ZMB Zambia            Africa        752618   1964  9169000    37.2
+IN,41,ITA,Italy,Europe,Southern Europe,301316,1861,57680000,79.0
+OK, Italy             inserted
+IN,7,ZMB,Zambia,Africa,Eastern Africa,752618,1964,9169000,37.2
+OK, Zambia            inserted
+QI,41
+041 ITA Italy             Europe        301316   1861  57680000   79.0
+QI,07
+007 ZMB Zambia            Africa        752618   1964  9169000    37.2
+DI,13
+** ERROR: no country with id 13
+QI,013
+** ERROR: no country with id 13
+DI,12
+OK, Australia         deleted
+DI,12
+** ERROR: no country with id 12
+QI,12
+** ERROR: no country with id 12
+IN,12,AUS,Australia,Oceania,Australia and New Zealand,7741220,1901,18886000,79.8
+OK, Australia         inserted
+QI,012
+012 AUS Australia         Oceania       7741220  1901  18886000   79.8
+DI,002
+** ERROR: no country with id 2
+DI,038
+** ERROR: no country with id 38
+DI,987
+** ERROR: no country with id 987
+DI,15
+** ERROR: no country with id 15
+DI,00
+DI,39
+** ERROR: no country with id 39
+QI,39
+** ERROR: no country with id 39
+QI,17
+017 USA United States     North America 9363520  1776  278357000  77.1
+IN,17,USA,United States,North America,North America,9363520,1776,278357000,77.1
+OK, United States     inserted
+QI,17
+017 USA United States     North America 9363520  1776  278357000  77.1
+QI,6
+006 USA United States     North America 9363520  1776  278357000  77.1
+QI,987654321
+** ERROR: no country with id 987654321
+LI
+ID CODE NAME              CONTINENT      SIZE    YEAR  POPULATION L.EX
+001 XVI Hex Land          North America 1        1969  1966514816 0.00
+003 CHN China             Asia          9572900  -1523 1277558000 71.4
+004 IND India             Asia          3287263  1947  1013662000 62.5
+006 USA United States     North America 9363520  1776  278357000  77.1
+007 ZMB Zambia            Africa        752618   1964  9169000    37.2
+008 RUS Russian Federatio Europe        17075400 1991  146934000  67.2
+009 JPN Japan             Asia          377829   -660  126714000  80.7
+012 AUS Australia         Oceania       7741220  1901  18886000   79.8
+017 USA United States     North America 9363520  1776  278357000  77.1
+019 FRA France            Europe        551500   843   59225700   78.8
+020 POL Poland            Europe        323250   1918  38653600   73.2
+021 KEN Kenya             Africa        580367   1963  30080000   48.0
+022 VEN Venezuela         South America 912050   1811  24170000   73.1
+024 YEM Yemen             Asia          527968   1918  18112000   59.8
+025 ZWE Zimbabwe          Africa        390757   1980  11669000   37.8
+027 BEL Belgium           Europe        30518    1830  10239000   77.8
+028 SOM Somalia           Africa        637657   1960  10097000   46.2
+030 HTI Haiti             North America 27750    1804  8222000    49.2
+031 NIC Nicaragua         North America 130000   1838  5074000    68.7
+032 LBN Lebanon           Asia          10400    1941  3282000    71.3
+033 OMN Oman              Asia          309500   1951  2542000    71.8
+035 QAT Qatar             Asia          11000    1971  599000     72.4
+036 WSM Samoa             Oceania       2831     1962  180000     69.2
+037 TCA Turks and Caicos  North America 430      0     17000      73.3
+041 ITA Italy             Europe        301316   1861  57680000   79.0
++ + + + + + + + + + + END OF DATA – 25 countries + + + + + + + + + + + +
+UserApp done - 37 transactions processed
+close CountryData File
+close CountryData File
+close Log File

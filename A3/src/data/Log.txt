@@ -1,0 +1,205 @@
+open Log File
+open CountryData File
+open IndexBackup File
+open RawData File
+open CountryData File
+OK, Japan              inserted
+OK, Norway             inserted
+OK, Kenya              inserted
+OK, Egypt              inserted
+OK, Pakistan           inserted
+OK, United Kingdom     inserted
+OK, Zambia             inserted
+OK, Mozambique         inserted
+OK, Canada             inserted
+OK, Botswana           inserted
+OK, Haiti              inserted
+OK, United States      inserted
+OK, Western Sahara     inserted
+OK, Gabon              inserted
+OK, Dominican Republic inserted
+OK, Yugoslavia         inserted
+OK, Andorra            inserted
+OK, India              inserted
+OK, Russian Federation inserted
+OK, Syria              inserted
+OK, Oman               inserted
+OK, Qatar              inserted
+OK, Venezuela          inserted
+OK, Taiwan             inserted
+OK, France             inserted
+OK, Liechtenstein      inserted
+Setup done – 26 countries stored in CountryData file
+close CountryData File
+close IndexBackup File
+close Log File
+open Log File
+open IndexBackup File
+open CountryData file
+RootPtr is 0,  N is 26
+[SUB] LCH NAME-------------- DRP RCH
+[000] 003 Japan              035 001 
+[001] 002 Norway             028 004 
+[002] -01 Kenya              005 007 
+[003] 008 Egypt              014 010 
+[004] 020 Pakistan           010 005 
+[005] 018 United Kingdom     026 006 
+[006] 011 Zambia             001 -01 
+[007] 025 Mozambique         002 -01 
+[008] 009 Canada             034 014 
+[009] 016 Botswana           003 -01 
+[010] 013 Haiti              006 017 
+[011] -01 United States      025 012 
+[012] 022 Western Sahara     007 015 
+[013] 024 Gabon              008 -01 
+[014] -01 Dominican Republic 023 -01 
+[015] -01 Yugoslavia         020 -01 
+[016] -01 Andorra            037 -01 
+[017] -01 India              012 -01 
+[018] 021 Russian Federation 016 019 
+[019] -01 Syria              017 023 
+[020] -01 Oman               018 -01 
+[021] -01 Qatar              019 -01 
+[022] -01 Venezuela          021 -01 
+[023] -01 Taiwan             024 -01 
+[024] -01 France             029 -01 
+[025] -01 Liechtenstein      031 -01 
+close CountryData file
+PrettyPrint done
+close IndexBackup File
+close Log File
+open Log File
+open TransData File
+open CountryData File
+open IndexBackup File
+QN,Japan
+JPN Japan              Asia            126,714,000 80.7
+  [1 BST nodes visited]
+QN,Liechtenstein
+LIE Liechtenstein      Europe               32,300 78.8
+  [5 BST nodes visited]
+QN,Venezuela
+VEN Venezuela          South America    24,170,000 73.1
+  [8 BST nodes visited]
+QN,Andorra
+AND Andorra            Europe               78,000 83.5
+  [5 BST nodes visited]
+QN,andorra
+AND Andorra            Europe               78,000 83.5
+  [5 BST nodes visited]
+QN,kansas
+** ERROR: no country with name kansas
+  [3 BST nodes visited]
+QN,Zambia
+ZMB Zambia             Africa            9,169,000 37.2
+  [5 BST nodes visited]
+QN,Albania
+** ERROR: no country with name Albania
+  [5 BST nodes visited]
+QN,Zanzibar
+** ERROR: no country with name Zanzibar
+  [5 BST nodes visited]
+QN,Antartic
+** ERROR: no country with name Antartic
+  [5 BST nodes visited]
+QN,France
+FRA France             Europe           59,225,700 78.8
+  [5 BST nodes visited]
+QN,FRANCE
+FRA France             Europe           59,225,700 78.8
+  [5 BST nodes visited]
+QN,FranCE
+FRA France             Europe           59,225,700 78.8
+  [5 BST nodes visited]
+QN,Franc
+** ERROR: no country with name Franc
+  [5 BST nodes visited]
+QN,France && Provence
+** ERROR: no country with name France && Provence
+  [5 BST nodes visited]
+QN,France            
+FRA France             Europe           59,225,700 78.8
+  [5 BST nodes visited]
+QN,Above Ends With 12 Spaces
+** ERROR: no country with name Above Ends With 12 Spaces
+  [5 BST nodes visited]
+QN,United
+** ERROR: no country with name United
+  [7 BST nodes visited]
+QN,United States
+USA United States      North America   278,357,000 77.1
+  [6 BST nodes visited]
+QN,United Kingdom
+GBR United Kingdom     Europe           59,623,400 77.7
+  [4 BST nodes visited]
+QN,United States of America
+** ERROR: no country with name United States of America
+  [8 BST nodes visited]
+QN,United States     of America
+** ERROR: no country with name United States     of America
+  [8 BST nodes visited]
+QN,United States     of Mickey Mouse
+** ERROR: no country with name United States     of Mickey Mouse
+  [8 BST nodes visited]
+QN,United Queendom
+** ERROR: no country with name United Queendom
+  [6 BST nodes visited]
+QN,Iceland
+** ERROR: no country with name Iceland
+  [4 BST nodes visited]
+QN,India
+IND India              Asia          1,013,662,000 62.5
+  [4 BST nodes visited]
+QN,Latvia
+** ERROR: no country with name Latvia
+  [5 BST nodes visited]
+QN,Western Michigan University
+** ERROR: no country with name Western Michigan University
+  [8 BST nodes visited]
+QN,# is < 0-9 (& so < A-Z)
+** ERROR: no country with name # is < 0-9 (& so < A-Z)
+  [5 BST nodes visited]
+QN,4 is < A-Z
+** ERROR: no country with name 4 is < A-Z
+  [5 BST nodes visited]
+QN,= is > 0-9 & < A-Z
+** ERROR: no country with name = is > 0-9 & < A-Z
+  [5 BST nodes visited]
+QN,] is > A-Z & < a-z
+** ERROR: no country with name ] is > A-Z & < a-z
+  [5 BST nodes visited]
+QN,} is > a-z
+** ERROR: no country with name } is > a-z
+  [5 BST nodes visited]
+LN
+CDE NAME-------------- CONTINENT---- ---POPULATION L.EX
+AND Andorra            Europe               78,000 83.5
+BWA Botswana           Africa            1,622,000 39.3
+CAN Canada             North America    31,147,000 79.4
+DOM Dominican Republic North America     8,495,000 73.2
+EGY Egypt              Africa           68,470,000 63.3
+FRA France             Europe           59,225,700 78.8
+GAB Gabon              Africa            1,226,000 50.1
+HTI Haiti              North America     8,222,000 49.2
+IND India              Asia          1,013,662,000 62.5
+JPN Japan              Asia            126,714,000 80.7
+KEN Kenya              Africa           30,080,000 48.0
+LIE Liechtenstein      Europe               32,300 78.8
+MOZ Mozambique         Africa           19,680,000 37.5
+NOR Norway             Europe            4,478,500 78.7
+OMN Oman               Asia              2,542,000 71.8
+PAK Pakistan           Asia            156,483,000 61.1
+QAT Qatar              Asia                599,000 72.4
+RUS Russian Federation Europe          146,934,000 67.2
+SYR Syria              Asia             16,125,000 68.5
+TWN Taiwan             Asia             22,256,000 76.4
+GBR United Kingdom     Europe           59,623,400 77.7
+USA United States      North America   278,357,000 77.1
+VEN Venezuela          South America    24,170,000 73.1
+ESH Western Sahara     Africa              293,000 49.8
+YUG Yugoslavia         Europe           10,640,000 72.4
+ZMB Zambia             Africa            9,169,000 37.2
+UserApp done - 34 transactions processed
+close CountryData File
+close CountryData File
+close Log File

@@ -1,0 +1,32 @@
+open Log File
+Please input the dataset you want to use (1,2,3):
+Dataset chosen:1
+open TransData File
+open CountryData File
+open CodeIndex File
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+PROCESSING TransDataA5_1.csv
+
+QC,RED >>> 50 RED wine Merlot   72 [NODES:  3, DATA RECORDS:  7]
+QC,ZIP >>> 62 ZIP code          84 [NODES:  3, DATA RECORDS: 13]
+QC,ALL >>> 40 ALL for one       62 [NODES:  3, DATA RECORDS:  3]
+QC,CAA >>> CODE NOT FOUND          [NODES:  3, DATA RECORDS:  7]
+QC,SAT >>> 06 SAT awhile here   28 [NODES:  1, DATA RECORDS:  3]
+QC,JAZ >>> CODE NOT FOUND          [NODES:  3, DATA RECORDS:  8]
+QC,YOU >>> 30 YOU r 4 me        52 [NODES:  2, DATA RECORDS:  8]
+QC,DVD >>> 26 DVD or CD or...   48 [NODES:  2, DATA RECORDS:  3]
+QC,AAA >>> CODE NOT FOUND          [NODES:  3, DATA RECORDS:  3]
+QC,ZZZ >>> CODE NOT FOUND          [NODES:  3, DATA RECORDS: 14]
+QC,CON >>> 18 CON artist (???)  40 [NODES:  1, DATA RECORDS:  1]
+QC,HAT >>> 59 HAT & coat        81 [NODES:  2, DATA RECORDS:  5]
+QC,RAT >>> 35 RAT you dirty     57 [NODES:  2, DATA RECORDS:  5]
+QC,AND >>> 09 AND so on and...  31 [NODES:  2, DATA RECORDS:  2]
+QC,SAM >>> 36 SAM son & Delila  58 [NODES:  3, DATA RECORDS:  9]
+QC,YOZ >>> CODE NOT FOUND          [NODES:  3, DATA RECORDS: 10]
+QC,WOZ >>> CODE NOT FOUND          [NODES:  3, DATA RECORDS: 11]
+QC,CAZ >>> CODE NOT FOUND          [NODES:  3, DATA RECORDS:  9]
+QC,BEG >>> 43 BEG for supper    65 [NODES:  2, DATA RECORDS:  4]
+UserApp done - 19 transactions processed
+close CountryData File
+close CountryData File
+close Log File

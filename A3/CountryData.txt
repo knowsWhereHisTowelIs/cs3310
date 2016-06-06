@@ -1,0 +1,37 @@
+ZMBZambia            Africa       000916900037.2
+MOZMozambique        Africa       001968000037.5
+BWABotswana          Africa       000162200039.3
+                                                
+KENKenya             Africa       003008000048.0
+HTIHaiti             North America000822200049.2
+ESHWestern Sahara    Africa       000029300049.8
+GABGabon             Africa       000122600050.1
+                                                
+PAKPakistan          Asia         015648300061.1
+                                                
+INDIndia             Asia         101366200062.5
+                                                
+EGYEgypt             Africa       006847000063.3
+                                                
+RUSRussian FederationEurope       014693400067.2
+SYRSyria             Asia         001612500068.5
+OMNOman              Asia         000254200071.8
+QATQatar             Asia         000059900072.4
+YUGYugoslavia        Europe       001064000072.4
+VENVenezuela         South America002417000073.1
+                                                
+DOMDominican RepublicNorth America000849500073.2
+TWNTaiwan            Asia         002225600076.4
+USAUnited States     North America027835700077.1
+GBRUnited Kingdom    Europe       005962340077.7
+                                                
+NORNorway            Europe       000447850078.7
+FRAFrance            Europe       005922570078.8
+                                                
+LIELiechtenstein     Europe       000003230078.8
+                                                
+                                                
+CANCanada            North America003114700079.4
+JPNJapan             Asia         012671400080.7
+                                                
+ANDAndorra           Europe       000007800083.5

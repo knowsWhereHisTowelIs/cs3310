@@ -1,0 +1,241 @@
+open Log File
+open RawData File
+open CountryData File
+open CountryData File
+OK, Mexico            inserted
+OK, China             inserted
+OK, Japan             inserted
+OK, United States     inserted
+OK, France            inserted
+OK, Belgium           inserted
+OK, United Kingdom    inserted
+OK, Haiti             inserted
+OK, Venezuela         inserted
+OK, Nicaragua         inserted
+OK, Poland            inserted
+OK, Yemen             inserted
+OK, Egypt             inserted
+OK, Lebanon           inserted
+OK, India             inserted
+OK, Oman              inserted
+OK, Germany           inserted
+OK, Somalia           inserted
+OK, Samoa             inserted
+OK, Kenya             inserted
+OK, Hex Land          inserted
+OK, Qatar             inserted
+OK, Zimbabwe          inserted
+OK, Russian Federatio inserted
+OK, Turks and Caicos  inserted
+OK, Antarctica        inserted
+Setup done – 26 countries stored in CountryData file
+close RawData File
+close CountryData File
+close CountryData File
+close Log File
+open Log File
+open CountryData File
+HEADER REC:    11 Rec in Home Area,   15 Rec in Collision Area, MAX_N_HOME_LOC: 36
+
+open CountryData file
+HOME AREA ***************************************************************************
+RRN> ID CODE  NAME             CONTINENT         SIZE     YEAR  POPULATION L.EX LINK
+001> 009 JPN Japan             Asia                377829  -660  126714000 80.7 35
+002> EMPTY
+003> EMPTY
+004> EMPTY
+005> 012 MEX Mexico            North America      1958201  1810   98881000 71.5 30
+006> EMPTY
+007> EMPTY
+008> EMPTY
+009> 032 LBN Lebanon           Asia                 10400  1941    3282000 71.3 -1
+010> 028 SOM Somalia           Africa              637657  1960   10097000 46.2 -1
+011> 021 KEN Kenya             Africa              580367  1963   30080000 48.0 33
+012> 015 EGY Egypt             Africa             1001449  1922   68470000 63.3 -1
+013> 003 CHN China             Asia               9572900 -1523 1277558000 71.4 27
+014> EMPTY
+015> 033 OMN Oman              Asia                309500  1951    2542000 71.8 -1
+016> 006 USA United States     North America      9363520  1776  278357000 77.1 -1
+017> EMPTY
+018> 024 YEM Yemen             Asia                527968  1918   18112000 59.8 29
+019> 031 NIC Nicaragua         North America       130000  1838    5074000 68.7 -1
+020> EMPTY
+COLLISION AREA **********************************************************************
+021> 019 FRA France            Europe              551500   843   59225700 78.8 -1
+022> 027 BEL Belgium           Europe               30518  1830   10239000 77.8 -1
+023> 017 GBR United Kingdom    Europe              242900  1066   59623400 77.7 -1
+024> 030 HTI Haiti             North America        27750  1804    8222000 49.2 22
+025> 022 VEN Venezuela         South America       912050  1811   24170000 73.1 23
+026> 020 POL Poland            Europe              323250  1918   38653600 73.2 21
+027> 004 IND India             Asia               3287263  1947 1013662000 62.5 25
+028> 013 DEU Germany           Europe              357022  1955   82164700 77.4 26
+029> 036 WSM Samoa             Oceania               2831  1962     180000 69.2 -1
+030> 001 XVI Hex Land          North America            1  1969 1966514816 0.0 24
+031> 035 QAT Qatar             Asia                 11000  1971     599000 72.4 28
+032> 025 ZWE Zimbabwe          Africa              390757  1980   11669000 37.8 -1
+033> 008 RUS Russian Federatio Europe            17075400  1991  146934000 67.2 32
+034> 037 TCA Turks and Caicos  North America          430     0      17000 73.3 31
+035> 039 ATA Antarctica        Antarctica        13120000     0          0 0.0 34
+close CountryData file
+PrettyPrint done
+close CountryData File
+close Log File
+open Log File
+open TransData File
+open CountryData File
+HEADER REC:    11 Rec in Home Area,   15 Rec in Collision Area, MAX_N_HOME_LOC: 36
+
+QC,MEX
+012 MEX Mexico            North America      1958201  1810   98881000 71.5
+     search path:    1
+QC,ATA
+039 ATA Antarctica        Antarctica        13120000     0          0 0.0
+     search path:    2
+QC,JPN
+009 JPN Japan             Asia                377829  -660  126714000 80.7
+     search path:    1
+QC,QAT
+035 QAT Qatar             Asia                 11000  1971     599000 72.4
+     search path:    4
+QC,WMU
+** ERROR: no country with code WMU
+     search path:    1
+QC,FRA
+019 FRA France            Europe              551500   843   59225700 78.8
+     search path:    7
+QC,POL
+020 POL Poland            Europe              323250  1918   38653600 73.2
+     search path:    6
+QC,LBN
+032 LBN Lebanon           Asia                 10400  1941    3282000 71.3
+     search path:    1
+QC,YEM
+024 YEM Yemen             Asia                527968  1918   18112000 59.8
+     search path:    1
+QC,WSM
+036 WSM Samoa             Oceania               2831  1962     180000 69.2
+     search path:    2
+QC,NPJ
+** ERROR: no country with code NPJ
+     search path:    7
+QC,NLB
+** ERROR: no country with code NLB
+     search path:    1
+QC,EMY
+** ERROR: no country with code EMY
+     search path:    2
+QC,QQQ
+** ERROR: no country with code QQQ
+     search path:    1
+QC,IQQ
+** ERROR: no country with code IQQ
+     search path:    1
+DC,JPN
+OK, Japan             deleted
+     search path:    1
+DC,WMU
+OK, United States     deleted
+     search path:    1
+DC,FRA
+OK, France            deleted
+     search path:    7
+DC,POL
+OK, Poland            deleted
+     search path:    6
+DC,NIC
+OK, Nicaragua         deleted
+     search path:    1
+QC,JPN
+** ERROR: no country with code JPN
+     search path:    7
+QC,FRA
+** ERROR: no country with code FRA
+     search path:    7
+QC,POL
+** ERROR: no country with code POL
+     search path:    7
+QC,NIC
+** ERROR: no country with code NIC
+     search path:    1
+QC,CIN
+** ERROR: no country with code CIN
+     search path:    1
+DC,EMY
+OK, Samoa             deleted
+     search path:    2
+IN,74,JOR,Jordan,Asia,Middle East,88946,1946,5083000,77.4
+OK, Jordan            inserted
+IN,927,GRC,Greece,Europe,Southern Europe,131626,1830,10545700,78.4
+OK, Greece            inserted
+IN,925,MYS,Malaysia AND SOME MORE PARTS OF A VERY LONG NAME,Asia,Southeast Asia,329758,1957,22244000,70.8
+OK, Malaysia AND SOME inserted
+QC,JOR
+074 JOR Jordan            Asia                 88946  1946    5083000 77.4
+     search path:    2
+QC,GRC
+927 GRC Greece            Europe              131626  1830   10545700 78.4
+     search path:    2
+QC,MYS
+925 MYS Malaysia AND SOME Asia                329758  1957   22244000 70.8
+     search path:    1
+LC
+** SORRY: list all by code is an invalid option
+LI
+** SORRY: list all by id not yet operational
+QI,12
+** SORRY: query by id not yet operational
+DI,13
+** SORRY: delete by id not yet operational
+UserApp done - 36 transactions processed
+close CountryData File
+close CountryData File
+close Log File
+open Log File
+open CountryData File
+HEADER REC:    12 Rec in Home Area,   17 Rec in Collision Area, MAX_N_HOME_LOC: 38
+
+open CountryData file
+HOME AREA ***************************************************************************
+RRN> ID CODE  NAME             CONTINENT         SIZE     YEAR  POPULATION L.EX LINK
+001> TOMBSTONE                                                                  35
+002> EMPTY
+003> EMPTY
+004> EMPTY
+005> 012 MEX Mexico            North America      1958201  1810   98881000 71.5 30
+006> EMPTY
+007> EMPTY
+008> EMPTY
+009> 032 LBN Lebanon           Asia                 10400  1941    3282000 71.3 -1
+010> 028 SOM Somalia           Africa              637657  1960   10097000 46.2 -1
+011> 021 KEN Kenya             Africa              580367  1963   30080000 48.0 33
+012> 015 EGY Egypt             Africa             1001449  1922   68470000 63.3 -1
+013> 003 CHN China             Asia               9572900 -1523 1277558000 71.4 36
+014> EMPTY
+015> 033 OMN Oman              Asia                309500  1951    2542000 71.8 37
+016> TOMBSTONE                                                                  -1
+017> EMPTY
+018> 024 YEM Yemen             Asia                527968  1918   18112000 59.8 29
+019> TOMBSTONE                                                                  -1
+020> 925 MYS Malaysia AND SOME Asia                329758  1957   22244000 70.8 -1
+COLLISION AREA **********************************************************************
+021> TOMBSTONE                                                                  -1
+022> 027 BEL Belgium           Europe               30518  1830   10239000 77.8 -1
+023> 017 GBR United Kingdom    Europe              242900  1066   59623400 77.7 -1
+024> 030 HTI Haiti             North America        27750  1804    8222000 49.2 22
+025> 022 VEN Venezuela         South America       912050  1811   24170000 73.1 23
+026> TOMBSTONE                                                                  21
+027> 004 IND India             Asia               3287263  1947 1013662000 62.5 25
+028> 013 DEU Germany           Europe              357022  1955   82164700 77.4 26
+029> TOMBSTONE                                                                  -1
+030> 001 XVI Hex Land          North America            1  1969 1966514816 0.0 24
+031> 035 QAT Qatar             Asia                 11000  1971     599000 72.4 28
+032> 025 ZWE Zimbabwe          Africa              390757  1980   11669000 37.8 -1
+033> 008 RUS Russian Federatio Europe            17075400  1991  146934000 67.2 32
+034> 037 TCA Turks and Caicos  North America          430     0      17000 73.3 31
+035> 039 ATA Antarctica        Antarctica        13120000     0          0 0.0 34
+036> 074 JOR Jordan            Asia                 88946  1946    5083000 77.4 27
+037> 927 GRC Greece            Europe              131626  1830   10545700 78.4 -1
+close CountryData file
+PrettyPrint done
+close CountryData File
+close Log File

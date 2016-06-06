@@ -1,0 +1,68 @@
+01 BOX o' bits       01
+02 DVD player        02
+03 GET going         03
+04 IKE for President 04
+05 JAR of jam        05
+06 LAM burger        06
+07 RAN a race        07
+00 xxx xxxxxxxxxxxxx 00
+00 xxx xxxxxxxxxxxxx 00
+10 RUN spot run      10
+11 ALL in fun        11
+12 BUN n burger      12
+13 FAN for life      13
+14 FAR away          14
+15 FAT Btree GOOD    15
+16 FIR tree forest   16
+17 FIX an iPhone     17
+18 FUN fair          18
+19 GIG a RAM         19
+20 SAM Spade         20
+21 BEG borrow, steal 21
+22 AMY Schummer      22
+23 CAM era           23
+24 YOU & me          24
+25 DOG days          25
+26 EEK , a mouse !   26
+27 EGG & bacon       27
+28 HUB usb           28
+29 GOT cha           29
+30 TAN real or not   30
+31 ZIP per           31
+32 INK blot          32
+33 AND OR NOT        33
+34 CAT nip           34
+35 JAM jar           35
+36 ITS summer, O boy 36
+37 ART for life      37
+38 IMP ish like      38
+39 GUY & girl        39
+40 TON o bricks      40
+41 LAN network       41
+42 LAP top or tablet 42
+43 LIP stick         43
+44 MAN ners, please  44
+45 CON man           45
+46 MET a man who...  46
+00 xxx xxxxxxxxxxxxx 00
+48 DIP chips salso   48
+49 HAM or spam       49
+50 TOP dog           50
+00 xxx xxxxxxxxxxxxx 00
+00 xxx xxxxxxxxxxxxx 00
+53 WMU Western Mich  53
+54 BAT & ball        54
+55 ASK Jeeves        55
+56 CPU processor     56
+57 HEM lock poison   57
+00 xxx xxxxxxxxxxxxx 00
+00 xxx xxxxxxxxxxxxx 00
+60 KIT kat candy bar 60
+61 KZO Kalamazoo     61
+62 KIM berley        62
+63 xxx xxxxxxxxxxxxx 00
+64 JUT e bag         64
+00 xxx xxxxxxxxxxxxx 65
+66 JOT down a note   66
+67 DAT fat sat cat   67
+68 JET set around    68

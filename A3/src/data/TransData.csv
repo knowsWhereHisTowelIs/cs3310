@@ -1,0 +1,141 @@
+% A3 Test plan (TransDataA3.csv)
+%
+%
+% CASE:  1st record in input file
+% CASE:  root node in BST
+QN,Japan
+%
+% CASE:  last record in input file
+% CASE:  a leaf
+QN,Liechtenstein
+%
+% CASE:  the deepest leaf (same level as Y...)
+QN,Venezuela
+%
+% CASE:  leftmost node in BST
+QN,Andorra
+%
+% CASE:  case mismatch - OK, it matches
+QN,andorra
+%
+% CASE:  unsuccessful search
+QN,kansas
+%
+% CASE:  rightmost node in BST
+QN,Zambia
+%
+% CASE:  unsuccessful search, left of leftmost node
+QN,Albania
+%
+% CASE:  unsuccessful search, right of rightmost node
+QN,Zanzibar
+%
+% CASE:  unsuccessful search
+QN,Antartic
+%
+% CASE:  a leaf (again)
+QN,France
+%
+% CASE:  case mismatch (all caps) - OK, it matches
+QN,FRANCE
+%
+% CASE:  case mismatch (mixed case) - OK, it matches
+QN,FranCE
+%
+% CASE:  unsuccessful search
+QN,Franc
+%
+% CASE:  unsuccessful - 1st word of targetName matches, but...
+QN,France && Provence
+%
+% CASE:  trailing spaces on targetName - OK, it matches
+QN,France            
+%
+% CASE:  unsuccessful - multi-word targetName, left of leftmost node
+QN,Above Ends With 12 Spaces
+%
+% CASE:  unsuccessful - 1st word of indexName matches, but...
+QN,United
+%
+% CASE:  2 United's in index, does this find right one (lower down)?
+QN,United States
+%
+% CASE:  2 United's in index, does this find right one (higher up)?
+QN,United Kingdom
+%
+% CASE:  unsuccessful - see note below on long targetNames
+QN,United States of America
+%
+% CASE:  unsuccessful - see note below on long targetNames
+QN,United States     of America
+%
+% CASE:  unsuccessful - see note below on long targetNames
+QN,United States     of Mickey Mouse
+%
+% CASE:  unsuccessful - 1st word matches, but 2nd doesn't
+QN,United Queendom
+%
+% CASE: unsuccessful - left/right/right/left search
+QN,Iceland
+%
+% CASE:  leaf in middle of tree left/right/right search
+QN,India
+%
+% CASE:  unsuccessful - right/left/right/left/right search
+QN,Latvia
+%
+% CASE:  unsuccessful - matches on 1st word, but not rest
+QN,Western Michigan University
+%
+% CASE:  unsuccessful - see note below on special char
+QN,# is < 0-9 (& so < A-Z)
+%
+% CASE:  unsuccessful - see note below on special char
+QN,4 is < A-Z
+%
+% CASE:  unsuccessful - see note below on special char
+QN,= is > 0-9 & < A-Z
+%
+% CASE:  unsuccessful - see note below on special char
+QN,] is > A-Z & < a-z
+%
+% CASE:  unsuccessful - see note below on special char
+QN,} is > a-z
+%
+% CASE:  list all by code
+LN
+%
+% ------------------------------------------------------
+%
+% NOTE on special char handling:
+% - some language's string-comparison methods use ASCII-code order,
+%   while others (like C#) puts all special char together on
+%   right (or left) side of tree.  So are these all < Andorra
+%   or all > Zambia?  [oops, with my tree, we can't tell since
+%   both Andorra and Zambia are at level 5].
+% - just treat these as normal targetName's and you won't find them
+%   in the index when you search for them
+%
+% NOTE on long targetNames
+% - no match if user-specified targetName != indexName
+% - but indexName is only 18 char's, even if that isn't sufficient
+%   to capture whole name (e.g., Bosnia and Herzegovina,
+%   Republic of Macedonia)
+% - so should we just be comparing:
+%   targetName truncated to first 18 chars vs. indexName?
+%      so both of these would then match:
+%           United States     of America
+%           United States     of Mickey Mouse
+%   which we don't want.
+% - so call these both UNSUCCESSFUL searches
+% - and we should either:
+%       - talk with client as to what they really want to happen
+%   or
+%       - use a text box (or whatever) that limits input to 18 chars
+% - also, what about alternative names that a user might use for
+%   targetName like:
+%         United States of America (no match for A3)
+%         Great Britain (no match for United Kingdom)
+%         England (no match for United Kingdom)
+%   Sorry, A3 app doesn't handle these as user might want
+%

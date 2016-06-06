@@ -1,0 +1,19 @@
+BUILD,continent,South America
+SNAPSHOT
+EMPTY
+SNAPSHOT
+BUILD,continent,North America
+SNAPSHOT
+ADD,region,Western Europe
+ADD,region,Nordic Countries
+REMOVE,20
+SNAPSHOT
+ADD,region,British Islands
+REMOVE,2
+REMOVE,2
+ADD,region,Southern Europe
+ADD,region,Baltic Countries
+REMOVE,10
+ADD,region,Eastern Europe
+SNAPSHOT
+EMPTY

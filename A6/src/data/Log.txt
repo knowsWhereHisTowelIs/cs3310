@@ -1,0 +1,428 @@
+%   %   %   %   %   %   %   %   %   %   %   %   %   %   %
+
+START:  kalamazoo (19 - LP)
+DESTINATION:  london 
+>>> ERROR >>> city not in Michigan Map 
+
+%   %   %   %   %   %   %   %   %   %   %   %   %   %   %
+
+START:  london
+>>> ERROR >>> city not in Michigan Map 
+
+%   %   %   %   %   %   %   %   %   %   %   %   %   %   %
+
+START:  kalamazoo (19 - LP)
+DESTINATION:  kalamazoo (19 - LP)
+
+TRACE OF TARGETS: kalamazoo 
+
+TOTAL DISTANCE:  0 miles
+SHORTEST ROUTE:  kalamazoo
+
+
+%   %   %   %   %   %   %   %   %   %   %   %   %   %   %
+
+START:  theBridge (34 - BRIDGE)
+DESTINATION:  theBridge (34 - BRIDGE)
+
+TRACE OF TARGETS: theBridge 
+
+TOTAL DISTANCE:  0 miles
+SHORTEST ROUTE:  theBridge
+
+
+%   %   %   %   %   %   %   %   %   %   %   %   %   %   %
+
+START:  houghton (50 - UP)
+DESTINATION:  houghton (50 - UP)
+
+TRACE OF TARGETS: houghton 
+
+TOTAL DISTANCE:  0 miles
+SHORTEST ROUTE:  houghton
+
+
+%   %   %   %   %   %   %   %   %   %   %   %   %   %   %
+
+START:  kalamazoo (19 - LP)
+DESTINATION:  battleCreek (21 - LP)
+
+TRACE OF TARGETS: kalamazoo battleCreek 
+
+TOTAL DISTANCE:  24 miles
+SHORTEST ROUTE:  kalamazoo > battleCreek
+
+
+%   %   %   %   %   %   %   %   %   %   %   %   %   %   %
+
+START:  kalamazoo (19 - LP)
+DESTINATION:  bentonHarbor (4 - LP)
+
+TRACE OF TARGETS: kalamazoo battleCreek grandRapids bentonHarbor 
+
+TOTAL DISTANCE:  53 miles
+SHORTEST ROUTE:  kalamazoo > bentonHarbor
+
+
+%   %   %   %   %   %   %   %   %   %   %   %   %   %   %
+
+START:  lansing (5 - LP)
+DESTINATION:  kalkaska (29 - LP)
+
+TRACE OF TARGETS: lansing jackson brighton battleCreek flint alma annArbor grandRapids kalamazoo detroit imlayCity angola holland saginaw clare muskegon bayCity toledo portHuron monroe bentonHarbor reedCity standish cadillac grayling portSanilac portAustin ludington southBend michiganCity kalkaska 
+
+TOTAL DISTANCE:  179 miles
+SHORTEST ROUTE:  lansing > alma > clare > cadillac > kalkaska
+
+
+%   %   %   %   %   %   %   %   %   %   %   %   %   %   %
+
+START:  bentonHarbor (4 - LP)
+DESTINATION:  portHuron (13 - LP)
+
+TRACE OF TARGETS: bentonHarbor southBend michiganCity holland kalamazoo grandRapids battleCreek muskegon angola jackson lansing reedCity ludington annArbor brighton cadillac alma clare flint detroit toledo frankfort kalkaska saginaw imlayCity monroe bayCity traverseCity grayling portHuron 
+
+TOTAL DISTANCE:  254 miles
+SHORTEST ROUTE:  bentonHarbor > kalamazoo > battleCreek > lansing > flint > imlayCity > portHuron
+
+
+%   %   %   %   %   %   %   %   %   %   %   %   %   %   %
+
+START:  alpena (38 - LP)
+DESTINATION:  bentonHarbor (4 - LP)
+
+TRACE OF TARGETS: alpena gaylord mackinawCity theBridge grayling standish stIgnace charlevoix kalkaska bayCity traverseCity saginaw saultSteMarie cadillac clare frankfort seney flint alma manistique reedCity portAustin imlayCity portSanilac brighton rapidRiver ludington lansing annArbor escanaba detroit portHuron grandRapids marquette jackson muskegon holland monroe ironMountain battleCreek marinette toledo kalamazoo covington angola bentonHarbor 
+
+TOTAL DISTANCE:  333 miles
+SHORTEST ROUTE:  alpena > gaylord > grayling > kalkaska > cadillac > reedCity > grandRapids > holland > bentonHarbor
+
+
+%   %   %   %   %   %   %   %   %   %   %   %   %   %   %
+
+START:  kalkaska (29 - LP)
+DESTINATION:  lansing (5 - LP)
+
+TRACE OF TARGETS: kalkaska traverseCity grayling cadillac gaylord frankfort reedCity charlevoix clare standish mackinawCity theBridge stIgnace ludington alma alpena bayCity grandRapids saginaw saultSteMarie holland muskegon lansing 
+
+TOTAL DISTANCE:  179 miles
+SHORTEST ROUTE:  kalkaska > cadillac > clare > alma > lansing
+
+
+%   %   %   %   %   %   %   %   %   %   %   %   %   %   %
+
+START:  portHuron (13 - LP)
+DESTINATION:  bentonHarbor (4 - LP)
+
+TRACE OF TARGETS: portHuron portSanilac imlayCity detroit flint portAustin monroe annArbor brighton saginaw toledo bayCity lansing jackson alma standish clare battleCreek grandRapids angola kalamazoo reedCity holland cadillac grayling muskegon kalkaska gaylord alpena bentonHarbor 
+
+TOTAL DISTANCE:  254 miles
+SHORTEST ROUTE:  portHuron > imlayCity > flint > lansing > battleCreek > kalamazoo > bentonHarbor
+
+
+%   %   %   %   %   %   %   %   %   %   %   %   %   %   %
+
+START:  bentonHarbor (4 - LP)
+DESTINATION:  alpena (38 - LP)
+
+TRACE OF TARGETS: bentonHarbor southBend michiganCity holland kalamazoo grandRapids battleCreek muskegon angola jackson lansing reedCity ludington annArbor brighton cadillac alma clare flint detroit toledo frankfort kalkaska saginaw imlayCity monroe bayCity traverseCity grayling portHuron gaylord standish charlevoix portSanilac portAustin mackinawCity theBridge stIgnace alpena 
+
+TOTAL DISTANCE:  333 miles
+SHORTEST ROUTE:  bentonHarbor > holland > grandRapids > reedCity > cadillac > kalkaska > grayling > gaylord > alpena
+
+
+%   %   %   %   %   %   %   %   %   %   %   %   %   %   %
+
+START:  alpena (38 - LP)
+DESTINATION:  bayCity (16 - LP)
+
+TRACE OF TARGETS: alpena gaylord mackinawCity theBridge grayling standish stIgnace charlevoix kalkaska bayCity 
+
+TOTAL DISTANCE:  133 miles
+SHORTEST ROUTE:  alpena > standish > bayCity
+
+
+%   %   %   %   %   %   %   %   %   %   %   %   %   %   %
+
+START:  bayCity (16 - LP)
+DESTINATION:  alpena (38 - LP)
+
+TRACE OF TARGETS: bayCity saginaw standish clare flint alma portAustin imlayCity portSanilac reedCity brighton cadillac grayling lansing annArbor detroit portHuron kalkaska gaylord alpena 
+
+TOTAL DISTANCE:  133 miles
+SHORTEST ROUTE:  bayCity > standish > alpena
+
+
+%   %   %   %   %   %   %   %   %   %   %   %   %   %   %
+
+START:  ironwood (48 - UP)
+DESTINATION:  stIgnace (35 - UP)
+
+TRACE OF TARGETS: ironwood covington crystalFalls houghton ironMountain marquette copperHarbor escanaba rapidRiver marinette seney manistique stIgnace 
+
+TOTAL DISTANCE:  309 miles
+SHORTEST ROUTE:  ironwood > covington > marquette > seney > stIgnace
+
+
+%   %   %   %   %   %   %   %   %   %   %   %   %   %   %
+
+START:  crystalFalls (47 - UP)
+DESTINATION:  saultSteMarie (41 - UP)
+
+TRACE OF TARGETS: crystalFalls covington ironMountain houghton escanaba marquette ironwood rapidRiver marinette copperHarbor manistique seney stIgnace theBridge mackinawCity saultSteMarie 
+
+TOTAL DISTANCE:  253 miles
+SHORTEST ROUTE:  crystalFalls > covington > marquette > seney > saultSteMarie
+
+
+%   %   %   %   %   %   %   %   %   %   %   %   %   %   %
+
+START:  copperHarbor (51 - UP)
+DESTINATION:  annArbor (7 - LP)
+>>> NOTE >>> 2 different peninsulas, so 2 partial routes 
+
+TRACE OF TARGETS: copperHarbor houghton covington crystalFalls marquette ironwood ironMountain rapidRiver escanaba marinette seney manistique stIgnace saultSteMarie theBridge 
+
+TOTAL DISTANCE:  323 miles
+SHORTEST ROUTE:  copperHarbor > houghton > covington > marquette > seney > stIgnace > theBridge
+
+
+TRACE OF TARGETS: theBridge mackinawCity stIgnace saultSteMarie charlevoix gaylord grayling seney manistique alpena kalkaska traverseCity cadillac rapidRiver frankfort escanaba clare standish marquette reedCity alma bayCity ludington ironMountain marinette saginaw covington grandRapids crystalFalls flint lansing portAustin muskegon holland imlayCity portSanilac houghton jackson brighton kalamazoo battleCreek annArbor 
+
+TOTAL DISTANCE:  300 miles
+SHORTEST ROUTE:  theBridge > mackinawCity > gaylord > grayling > standish > bayCity > saginaw > flint > brighton > annArbor
+
+
+%   %   %   %   %   %   %   %   %   %   %   %   %   %   %
+
+START:  frankfort (26 - LP)
+DESTINATION:  marinette (45 - UP)
+>>> NOTE >>> 2 different peninsulas, so 2 partial routes 
+
+TRACE OF TARGETS: frankfort traverseCity cadillac ludington kalkaska charlevoix grayling reedCity clare gaylord muskegon mackinawCity theBridge 
+
+TOTAL DISTANCE:  142 miles
+SHORTEST ROUTE:  frankfort > traverseCity > charlevoix > mackinawCity > theBridge
+
+
+TRACE OF TARGETS: theBridge mackinawCity stIgnace saultSteMarie charlevoix gaylord grayling seney manistique alpena kalkaska traverseCity cadillac rapidRiver frankfort escanaba clare standish marquette reedCity alma bayCity ludington ironMountain marinette 
+
+TOTAL DISTANCE:  201 miles
+SHORTEST ROUTE:  theBridge > stIgnace > manistique > rapidRiver > escanaba > marinette
+
+
+%   %   %   %   %   %   %   %   %   %   %   %   %   %   %
+
+START:  southBend (1 - LP)
+DESTINATION:  marinette (45 - UP)
+>>> NOTE >>> 2 different peninsulas, so 2 partial routes 
+
+TRACE OF TARGETS: southBend michiganCity bentonHarbor angola holland kalamazoo grandRapids battleCreek muskegon jackson toledo lansing reedCity ludington monroe annArbor brighton cadillac alma detroit clare flint frankfort kalkaska saginaw imlayCity bayCity traverseCity grayling portHuron gaylord standish portSanilac charlevoix portAustin mackinawCity theBridge 
+
+TOTAL DISTANCE:  350 miles
+SHORTEST ROUTE:  southBend > bentonHarbor > holland > grandRapids > reedCity > cadillac > kalkaska > mackinawCity > theBridge
+
+
+TRACE OF TARGETS: theBridge mackinawCity stIgnace saultSteMarie charlevoix gaylord grayling seney manistique alpena kalkaska traverseCity cadillac rapidRiver frankfort escanaba clare standish marquette reedCity alma bayCity ludington ironMountain marinette 
+
+TOTAL DISTANCE:  201 miles
+SHORTEST ROUTE:  theBridge > stIgnace > manistique > rapidRiver > escanaba > marinette
+
+
+%   %   %   %   %   %   %   %   %   %   %   %   %   %   %
+
+START:  copperHarbor (51 - UP)
+DESTINATION:  michiganCity (0 - LP)
+>>> NOTE >>> 2 different peninsulas, so 2 partial routes 
+
+TRACE OF TARGETS: copperHarbor houghton covington crystalFalls marquette ironwood ironMountain rapidRiver escanaba marinette seney manistique stIgnace saultSteMarie theBridge 
+
+TOTAL DISTANCE:  323 miles
+SHORTEST ROUTE:  copperHarbor > houghton > covington > marquette > seney > stIgnace > theBridge
+
+
+TRACE OF TARGETS: theBridge mackinawCity stIgnace saultSteMarie charlevoix gaylord grayling seney manistique alpena kalkaska traverseCity cadillac rapidRiver frankfort escanaba clare standish marquette reedCity alma bayCity ludington ironMountain marinette saginaw covington grandRapids crystalFalls flint lansing portAustin muskegon holland imlayCity portSanilac houghton jackson brighton kalamazoo battleCreek annArbor detroit portHuron bentonHarbor ironwood copperHarbor angola monroe southBend michiganCity 
+
+TOTAL DISTANCE:  353 miles
+SHORTEST ROUTE:  theBridge > mackinawCity > kalkaska > cadillac > reedCity > grandRapids > holland > bentonHarbor > michiganCity
+
+
+%   %   %   %   %   %   %   %   %   %   %   %   %   %   %
+
+START:  alma (18 - LP)
+DESTINATION:  theBridge (34 - BRIDGE)
+
+TRACE OF TARGETS: alma clare saginaw bayCity lansing flint reedCity cadillac standish muskegon jackson grayling brighton imlayCity portSanilac battleCreek portAustin kalkaska annArbor grandRapids gaylord holland ludington kalamazoo detroit portHuron frankfort traverseCity angola charlevoix monroe toledo bentonHarbor mackinawCity theBridge 
+
+TOTAL DISTANCE:  186 miles
+SHORTEST ROUTE:  alma > clare > grayling > gaylord > mackinawCity > theBridge
+
+
+%   %   %   %   %   %   %   %   %   %   %   %   %   %   %
+
+START:  theBridge (34 - BRIDGE)
+DESTINATION:  alma (18 - LP)
+
+TRACE OF TARGETS: theBridge mackinawCity stIgnace saultSteMarie charlevoix gaylord grayling seney manistique alpena kalkaska traverseCity cadillac rapidRiver frankfort escanaba clare standish marquette reedCity alma 
+
+TOTAL DISTANCE:  186 miles
+SHORTEST ROUTE:  theBridge > mackinawCity > gaylord > grayling > clare > alma
+
+
+%   %   %   %   %   %   %   %   %   %   %   %   %   %   %
+
+START:  marquette (42 - UP)
+DESTINATION:  theBridge (34 - BRIDGE)
+
+TRACE OF TARGETS: marquette rapidRiver covington escanaba seney manistique crystalFalls houghton ironMountain marinette ironwood copperHarbor stIgnace saultSteMarie theBridge 
+
+TOTAL DISTANCE:  166 miles
+SHORTEST ROUTE:  marquette > seney > stIgnace > theBridge
+
+
+%   %   %   %   %   %   %   %   %   %   %   %   %   %   %
+
+START:  theBridge (34 - BRIDGE)
+DESTINATION:  marquette (42 - UP)
+
+TRACE OF TARGETS: theBridge mackinawCity stIgnace saultSteMarie charlevoix gaylord grayling seney manistique alpena kalkaska traverseCity cadillac rapidRiver frankfort escanaba clare standish marquette 
+
+TOTAL DISTANCE:  166 miles
+SHORTEST ROUTE:  theBridge > stIgnace > seney > marquette
+
+
+%   %   %   %   %   %   %   %   %   %   %   %   %   %   %
+
+START:  saultSteMarie (41 - UP)
+DESTINATION:  theBridge (34 - BRIDGE)
+
+TRACE OF TARGETS: saultSteMarie stIgnace theBridge 
+
+TOTAL DISTANCE:  55 miles
+SHORTEST ROUTE:  saultSteMarie > stIgnace > theBridge
+
+
+%   %   %   %   %   %   %   %   %   %   %   %   %   %   %
+
+START:  charlevoix (31 - LP)
+DESTINATION:  theBridge (34 - BRIDGE)
+
+TRACE OF TARGETS: charlevoix gaylord traverseCity mackinawCity theBridge 
+
+TOTAL DISTANCE:  57 miles
+SHORTEST ROUTE:  charlevoix > mackinawCity > theBridge
+
+
+%   %   %   %   %   %   %   %   %   %   %   %   %   %   %
+
+START:  mackinawCity (33 - LP)
+DESTINATION:  stIgnace (35 - UP)
+>>> NOTE >>> 2 different peninsulas, so 2 partial routes 
+
+TRACE OF TARGETS: mackinawCity theBridge 
+
+TOTAL DISTANCE:  4 miles
+SHORTEST ROUTE:  mackinawCity > theBridge
+
+
+TRACE OF TARGETS: theBridge mackinawCity stIgnace 
+
+TOTAL DISTANCE:  5 miles
+SHORTEST ROUTE:  theBridge > stIgnace
+
+
+%   %   %   %   %   %   %   %   %   %   %   %   %   %   %
+
+START:  stIgnace (35 - UP)
+DESTINATION:  mackinawCity (33 - LP)
+>>> NOTE >>> 2 different peninsulas, so 2 partial routes 
+
+TRACE OF TARGETS: stIgnace theBridge 
+
+TOTAL DISTANCE:  5 miles
+SHORTEST ROUTE:  stIgnace > theBridge
+
+
+TRACE OF TARGETS: theBridge mackinawCity 
+
+TOTAL DISTANCE:  4 miles
+SHORTEST ROUTE:  theBridge > mackinawCity
+
+
+%   %   %   %   %   %   %   %   %   %   %   %   %   %   %
+
+START:  theBridge (34 - BRIDGE)
+DESTINATION:  theBridge (34 - BRIDGE)
+
+TRACE OF TARGETS: theBridge 
+
+TOTAL DISTANCE:  0 miles
+SHORTEST ROUTE:  theBridge
+
+
+%   %   %   %   %   %   %   %   %   %   %   %   %   %   %
+
+START:  mackinawCity (33 - LP)
+DESTINATION:  theBridge (34 - BRIDGE)
+
+TRACE OF TARGETS: mackinawCity theBridge 
+
+TOTAL DISTANCE:  4 miles
+SHORTEST ROUTE:  mackinawCity > theBridge
+
+
+%   %   %   %   %   %   %   %   %   %   %   %   %   %   %
+
+START:  theBridge (34 - BRIDGE)
+DESTINATION:  mackinawCity (33 - LP)
+
+TRACE OF TARGETS: theBridge mackinawCity 
+
+TOTAL DISTANCE:  4 miles
+SHORTEST ROUTE:  theBridge > mackinawCity
+
+
+%   %   %   %   %   %   %   %   %   %   %   %   %   %   %
+
+START:  stIgnace (35 - UP)
+DESTINATION:  theBridge (34 - BRIDGE)
+
+TRACE OF TARGETS: stIgnace theBridge 
+
+TOTAL DISTANCE:  5 miles
+SHORTEST ROUTE:  stIgnace > theBridge
+
+
+%   %   %   %   %   %   %   %   %   %   %   %   %   %   %
+
+START:  theBridge (34 - BRIDGE)
+DESTINATION:  stIgnace (35 - UP)
+
+TRACE OF TARGETS: theBridge mackinawCity stIgnace 
+
+TOTAL DISTANCE:  5 miles
+SHORTEST ROUTE:  theBridge > stIgnace
+
+
+%   %   %   %   %   %   %   %   %   %   %   %   %   %   %
+
+START:  kalamazoo (19 - LP)
+DESTINATION:  frankfort (26 - LP)
+
+TRACE OF TARGETS: kalamazoo battleCreek grandRapids bentonHarbor jackson lansing holland muskegon southBend michiganCity annArbor reedCity brighton flint alma detroit ludington cadillac clare toledo imlayCity angola saginaw monroe kalkaska bayCity portHuron frankfort 
+
+TOTAL DISTANCE:  207 miles
+SHORTEST ROUTE:  kalamazoo > grandRapids > reedCity > cadillac > frankfort
+
+
+%   %   %   %   %   %   %   %   %   %   %   %   %   %   %
+
+START:  kalamazoo (19 - LP)
+DESTINATION:  detroit (9 - LP)
+
+TRACE OF TARGETS: kalamazoo battleCreek grandRapids bentonHarbor jackson lansing holland muskegon southBend michiganCity annArbor reedCity brighton flint alma detroit 
+
+TOTAL DISTANCE:  146 miles
+SHORTEST ROUTE:  kalamazoo > battleCreek > jackson > annArbor > detroit
+
+
+%   %   %   %   %   %   %   %   %   %   %   %   %   %   %

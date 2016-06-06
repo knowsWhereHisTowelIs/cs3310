@@ -1,0 +1,128 @@
+% MichiganMap.txt data (based on older AAA map)
+
+% - - - - - - - - - - - - - - - - - - - - - - - - - -
+% NOTES:
+% - an undirected graph - road(cityA,cityB,,roadistance)
+%	listed only once, below
+%	but means A--> B as well as B --> A
+% - list of UP cities provided below.
+%	Assume a city's in LP (Lower Penninsula) if it 's not UP list.
+%	However, theBridge is a 3rd category - it's in both LP & UP.
+
+% - - - - - - - - - - - - - - - - - - - - - - - - - -
+% CITIES IN THE U.P. (UPPER PENNINSULA)
+
+up([ crystalFalls, copperHarbor, covington, escanaba, houghton, ironMountain, ironwood, manistique, marinette, marquette, rapidRiver, saultSteMarie, seney, stIgnace ]).
+
+% - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+% BORDER TOWNS JUST INSIDE INDIANA AND OHIO
+road(michiganCity, southBend, 35).
+road(southBend, angola, 81).
+road(angola, toledo, 83).
+
+road(bentonHarbor, michiganCity, 43).
+road(bentonHarbor, southBend, 40).
+road(lansing, angola, 91).
+road(jackson, toledo, 91).
+road(annArbor, toledo, 56).
+road(monroe, toledo, 21).
+
+% DETROIT AREA
+road(detroit, monroe, 37).
+road(detroit, annArbor, 40).
+road(detroit, brighton, 42).
+road(detroit, flint, 65).
+road(detroit, imlayCity, 53).
+road(detroit, portHuron, 56).
+road(annArbor, brighton, 18).
+road(brighton, flint, 40).
+road(flint, imlayCity, 33).
+road(imlayCity, portHuron, 35).
+
+% THUMB AREA
+road(portAustin, portSanilac, 53).
+road(portAustin, imlayCity, 73).
+road(portAustin, bayCity, 64).
+road(portHuron, portSanilac, 33).
+road(saginaw, flint, 37).
+road(saginaw, alma, 38).
+road(saginaw, bayCity, 16).
+road(saginaw, portSanilac, 71).
+
+% WESTERN LOWER HALF OF LOWER PENNINSULA
+road(kalamazoo, grandRapids, 51).
+road(kalamazoo, bentonHarbor, 53).
+road(kalamazoo, battleCreek, 24).
+road(battleCreek, lansing, 53).
+road(battleCreek, jackson, 44).
+road(grandRapids, holland, 26).
+road(grandRapids, muskegon, 41).
+road(grandRapids, reedCity, 66).
+road(holland, bentonHarbor, 51).
+road(holland, muskegon, 35).
+road(lansing, jackson, 37).
+road(lansing, grandRapids, 66).
+road(lansing, alma, 58).
+road(lansing, flint, 56).
+road(lansing, brighton, 46).
+road(annArbor, jackson, 38).
+
+% UP NORTH (LOWER PENNINSULA) - WESTERN SIDE
+road(muskegon, ludington, 58).
+road(muskegon, alma, 93).
+road(ludington, frankfort, 61).
+road(ludington, traverseCity, 90).
+road(ludington, reedCity, 52).
+road(frankfort, traverseCity, 36).
+road(frankfort, cadillac, 56).
+road(cadillac, reedCity, 34).
+road(cadillac, kalkaska, 34).
+road(traverseCity, kalkaska, 25).
+road(clare, cadillac, 50).
+road(clare, reedCity, 39).
+road(traverseCity, charlevoix, 49).
+road(charlevoix, gaylord, 42).
+road(charlevoix, mackinawCity, 53).
+road(kalkaska, mackinawCity, 95).
+
+% THE BRIDGE AREA
+road(mackinawCity, theBridge, 4).
+road(stIgnace, theBridge, 5).
+
+% UP NORTH (LOWER PENNINSULA) - CENTRAL & EAST
+road(clare, alma, 37).
+road(clare, bayCity, 50).
+road(clare, grayling, 61).
+road(kalkaska, grayling, 25).
+road(grayling, standish, 67).
+road(standish, bayCity, 34).
+road(grayling, gaylord, 27).
+road(gaylord, mackinawCity, 57).
+road(standish, alpena, 99).
+road(gaylord, alpena, 70).
+road(alpena, mackinawCity, 92).
+
+% UPPER PENNINSULA - EAST
+road(stIgnace, manistique, 87).
+road(stIgnace, seney, 83).
+road(stIgnace, saultSteMarie, 50).
+road(saultSteMarie, seney, 83).
+road(seney, manistique, 38).
+road(seney, marquette, 78).
+road(manistique, rapidRiver, 41).
+road(rapidRiver, escanaba, 15).
+road(rapidRiver, marquette, 51).
+
+% UPPER PENNINSULA - WEST
+road(escanaba, marinette, 53).
+road(escanaba, ironMountain, 50).
+road(ironMountain, crystalFalls, 39).
+road(crystalFalls, ironwood, 94).
+road(crystalFalls, covington, 31).
+road(covington, ironwood, 87).
+road(covington, marquette, 61).
+road(covington, houghton, 51).
+road(ironwood, houghton, 116).
+road(copperHarbor, houghton, 45).
+road(marinette, ironMountain, 66).

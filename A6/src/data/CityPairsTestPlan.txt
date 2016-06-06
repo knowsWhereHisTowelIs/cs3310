@@ -1,0 +1,78 @@
+% CityPairsTestPlan.txt
+
+
+% BAD CITY NAMES
+%    - DON'T HARD-CODE a special check for london,
+%      let it happen naturally when GetCityNumber returns a -1
+kalamazoo london
+london kalamazoo
+
+% START = DESTINATION
+%    - DON'T HARD-CODE it as a special case,
+%      let it happen naturally in RouteFinder's methods
+%    - these 3 data pairs probably only test the same "case", but...
+kalamazoo kalamazoo
+theBridge theBridge
+houghton houghton
+
+% START & DESTINATION ARE ONLY 1 EDGE APART
+%    1) battleCreek is closest city to kalamazoo (so 1st target)
+kalamazoo battleCreek
+%    2) battleCreek & grandRapids are closer than bentonHarbor
+%       so they're target's
+kalamazoo bentonHarbor
+
+% NORMAL CASE:  both LP
+%    - looks like 2 possible routes might be similar distances
+lansing kalkaska
+bentonHarbor portHuron
+alpena bentonHarbor
+%    - same answers going the opposite way?
+kalkaska lansing
+portHuron bentonHarbor
+bentonHarbor alpena
+%    - same number of targets going both ways?
+alpena bayCity
+bayCity alpena
+
+% NORMAL CASE:  both UP
+ironwood stIgnace
+crystalFalls saultSteMarie
+
+% NORMAL CASE:  LP/UP mix
+copperHarbor annArbor
+%    - get a boat!
+frankfort marinette
+%    - wouldn't Chicago have been better!
+southBend marinette
+%   - a really long distance
+copperHarbor michiganCity
+
+% THE BRIDGE
+%    - why does algorithm target cities SOUTH of alma and not head
+%      straight north to the Bridge?
+alma theBridge
+%    - same distance & route (in reverse), but different/fewer targets
+theBridge alma
+%    - does the same hold true for UP cities?
+marquette theBridge
+theBridge marquette
+%    - UP & LP behave differently with theBridge (since it's LP)
+saultSteMarie theBridge
+charlevoix theBridge
+%    - ODD cases
+mackinawCity stIgnace
+stIgnace mackinawCity
+theBridge theBridge
+mackinawCity theBridge
+theBridge mackinawCity
+stIgnace theBridge
+theBridge stIgnace
+
+% It's personal - if I really wanted to go to Sleeping Bear Dunes...
+kalamazoo frankfort
+
+% HOW MUCH EDITING must program do to accomodate user?
+%   - spaces after destination
+kalamazoo detroit   
+%   - other possibilities which we aren't testing here for A6
